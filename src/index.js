@@ -13,6 +13,7 @@ app.use(express.json());
 connectDB();
 
 app.get('/', (req, res) => {
+    console.log("hello");
     res.send('No-Code API Generator is Running');
 });
 
